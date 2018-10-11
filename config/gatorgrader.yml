@@ -26,7 +26,7 @@ writing/reflection.md:
     --paragraphs 5 --exact
     --words 100
 # --> check the number of commits beyond a threshold
---commits 10
+--commits 23
 # --> check that the program executes and produces 4 lines of output
 # --> check that the program produces output with certain fragments
 # NOTE: This is too difficult to include; starting code runs too long
