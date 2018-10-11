@@ -5,12 +5,6 @@ import labfive.sort.Sorter;
 
 import java.util.Random;
 
-/**
- * A RunCampaign class that can run an experiment with a Sorter.
- *
- * @author Gregory M. Kapfhammer
- */
-
 public class RunCampaign implements Campaign {
 
   /** The starting size for running an experiment campaign. */
@@ -25,7 +19,6 @@ public class RunCampaign implements Campaign {
   /** The indentation level for the output. */
   private static final String IDENTATION = "  ";
 
-  /** Randomly generate data to use for an experiment. */
   public int[] generateRandomData(int size) {
     Random random = new Random();
     int[] generated = new int[size];
@@ -33,7 +26,6 @@ public class RunCampaign implements Campaign {
     return generated;
   }
 
-  /** Run a Sorter in an experiment campaign. */
   public ResultsTable run(Sorter sort) {
     int campaignRound = 0;
     int currentInputSize = INPUT_SIZE_START;
