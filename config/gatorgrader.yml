@@ -29,4 +29,5 @@ writing/reflection.md:
 --commits 10
 # --> check that the program executes and produces 4 lines of output
 # --> check that the program produces output with certain fragments
---command "gradle -q --console plain run" --executes
+# NOTE: This is too difficult to include; starting code runs too long
+# --command "gradle -q --console plain run" --executes
